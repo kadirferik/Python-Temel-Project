@@ -1,7 +1,7 @@
 # Python-Temel-Project
 www.patika.dev
 # 1. Görev
-''''
+```
 list1 = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
 def flat(x):
     list2 = []
@@ -21,9 +21,9 @@ def flat(x):
             list2.append(i)
     return list2
 print(flat(list1))
-''''
+```
 # 2. Görev
-''''
+```
 list1 = [[1, 2], [3, 4], [5, 6, 7]]
 def ters(x):
     x.reverse()
@@ -32,4 +32,4 @@ def ters(x):
     return x
 a = ters(list1)
 print(a)
-''''
+
